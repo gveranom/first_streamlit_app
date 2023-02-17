@@ -33,7 +33,7 @@ try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   # streamlit.write('The user entered ', fruit_choice)
   if not fruit_choice:
-    stramlit.error('Please select a fruit to get information')
+    streamlit.error('Please select a fruit to get information')
   else:
     #Next line to do request fixed a fruit
     #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
